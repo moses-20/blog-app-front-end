@@ -1,0 +1,55 @@
+main {
+ height: 90vh;
+ background-color: black;
+ background-image: url('../../img/banner.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.homeWrap {
+ padding: 100px;
+}
+
+.homeWrapOverlay {
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: space-around;
+}
+
+.readWrap,
+.writeWrap {
+ background-color: #2ebebe;
+ border-radius: 20px;
+ height: 300px;
+ width: 300px;
+ transform: rotate(20deg);
+}
+
+.readPosts,
+.writePosts {
+ background-color: grey;
+ border-radius: 20px;
+ height: 300px;
+ width: 300px;
+ transform: rotate(-20deg);
+ display: flex;
+ flex-direction: column;
+ cursor: pointer;
+}
+
+.iImg {
+ border-radius: 20px 20px 0 0;
+}
+
+.readTag,
+.writeTag {
+ font-size: 3em;
+ text-align: center;
+ padding-top: 20px;
+ color: white;
+ font-family: 'Handlee';
+ text-shadow: 2px 2px 2px black;
+}
+
+

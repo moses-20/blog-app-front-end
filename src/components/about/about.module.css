@@ -1,0 +1,22 @@
+.about {
+ height: 80vh;
+ background: #2ebebe;
+ padding-top: 70px;
+ padding-left: 50px;
+}
+
+.typed {
+ margin: 10px auto;
+ left: 100px;
+ font-size: 4em;
+ font-family: 'Handlee';
+ color: black;
+ }
+
+.contact {
+ padding-top: 80px;
+ margin-top: 30px;
+ text-align: center;
+ font-family: 'Handlee';
+ color: black;
+}

@@ -1,0 +1,28 @@
+.article {
+ background: #2ebebe;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+}
+
+.return {
+ width: 500px;
+ font-size: 1.5em;
+ background: grey;
+ font-family: 'Handlee', sans-serif;
+ color: black;
+ border: 0;
+ outline: 0;
+ font-weight: bolder;
+ margin: 15px auto;
+ text-shadow: 1px 1px 2px white;
+}
+
+.articleInfo {
+ text-align: center;
+}
+
+.markdown {
+ padding: 0 15px;
+}

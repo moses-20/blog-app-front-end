@@ -1,0 +1,70 @@
+.writeWrap {
+ background-color: grey;
+}
+
+.writeWrap > h1 {
+ text-align: center;
+ padding-top: 30px;
+ font-family: 'Acme';
+}
+
+.writeWrap > h1 > span {
+ text-decoration: underline;
+}
+.formWrap {
+ padding: 30px;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+form {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+form > button {
+ height: 30px;
+ margin-left: 90%;
+ font-size: 1.2em;
+ font-weight: bolder;
+ font-family: 'Handlee', sans-serif;
+ margin-bottom: 10px;
+ background: black;
+ color: #2ebebe;
+ outline: none;
+ border: none;
+}
+
+label {
+ background-color: #2ebebe;
+ height: 2em;
+ padding-top: 10px;
+ margin-bottom: 10px;
+}
+
+label > input {
+ border: 0;
+ outline: 0;
+ width: 100%;
+ font-weight: bolder;
+ font-family: 'Handlee', sans-serif;
+ font-size: 1.2em;
+ text-align: center;
+ background-color: transparent;
+}
+
+form > textarea {
+ width: 100%;
+ height: 1000px;
+ background-color: #2ebebe;
+ outline: 0;
+ border: 0;
+ font-family: 'Handlee', sans-serif;
+ font-size: 1.5em;
+ font-weight: bolder;
+ text-align: justify;
+ padding: 10px;
+}
